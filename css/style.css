@@ -1,0 +1,67 @@
+body {
+  background-color: #f2f2f2;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+nav i {
+  font-size: 2rem;
+}
+#home .img-thumbnail {
+  padding: 0;
+  background-color: none;
+  border: none;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  max-width: 100%;
+  height: auto;
+}
+/* .circle_design {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background-color: #0db8fc;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  z-index: -1;
+  box-shadow: 56px 56px 600px #0db8fc;
+  top: -60px;
+  left: -50px;
+} */
+.fa-linkedin {
+  color: #0066c7;
+}
+.home {
+  display: grid;
+  grid-template-row: auto;
+  grid-template-columns: auto auto;
+}
+.home_article_background {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  height: 80vh;
+}
+/*  */
+.skills_design {
+  display: flex;
+  gap: 26px;
+}
+.item_skills {
+  font-size: 6rem;
+  display: grid;
+  justify-items: center;
+}
+.item_skills p {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: pink;
+  }
+  .home {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+}
